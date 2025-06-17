@@ -6,4 +6,4 @@ function exibirCor(nome, cor) {
     return `A ${nome} não escolheu nenhuma cor`;
 }
 console.log(exibirCor("Amanda", "cinza"));
-console.log(exibirCor("Gilson", "verde"));
+console.log(exibirCor("Gilson"));
