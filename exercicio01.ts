@@ -18,4 +18,13 @@ function exibirCor(nome: string, cor?: Cores): string {
 }
 
 console.log(exibirCor("Amanda", "cinza"));
-console.log(exibirCor("Gilson", "verde"));
+console.log(exibirCor("Gilson"));
+
+//VERSÃO 2
+
+//function exibirCor(nome: string, cor: Cor = "vermelho"): string {
+// if (cor) {
+//return `A ${nome}, gosta da cor ${cor}`;
+// }
+// return `A ${nome} não escolheu nenhuma cor`;
+//}
