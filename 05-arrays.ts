@@ -37,7 +37,14 @@ separador();
 // 2)Calcule a soma de todos os elementos e guarde numa variável
 // 3) Mostre o resultado da soma
 
+//versão tipada implicitamente (mais concisa)
 const valores: number[] = [10, 20, 30, 560];
-const total = valores.reduce((acumulador, valor) => acumulador + valor, 0);
+//const total = valores.reduce((acumulador, valor) => acumulador + valor, 0);
+
+//Versão tipada explicitamente (mais verbosa)
+const total: number = valores.reduce(
+  (acumulador: number, valor: number): number => acumulador + valor,
+  0
+);
 
 console.log(total);
