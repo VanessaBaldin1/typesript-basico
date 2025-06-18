@@ -31,3 +31,12 @@ let situacaoAluno3: Status = "pendente";
 console.log(`O Aluno esta com a situação: ` + situacaoAluno3);
 
 separador();
+
+type DiasDaSemana =
+  | "Domingo"
+  | "Segunda-feira"
+  | "Terça-feira"
+  | "Quarta-feira";
+
+const diaAtual: DiasDaSemana = "Quarta-feira";
+console.log(diaAtual);

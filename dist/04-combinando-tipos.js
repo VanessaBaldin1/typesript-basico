@@ -17,3 +17,5 @@ let situacaoAluno2 = "inativo";
 let situacaoAluno3 = "pendente";
 console.log(`O Aluno esta com a situação: ` + situacaoAluno3);
 (0, modulos_1.separador)();
+const diaAtual = "Quarta-feira";
+console.log(diaAtual);
