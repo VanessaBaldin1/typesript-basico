@@ -40,3 +40,28 @@ type DiasDaSemana =
 
 const diaAtual: DiasDaSemana = "Quarta-feira";
 console.log(diaAtual);
+
+separador();
+
+//Interseção de tipos
+type Pessoa = { nome: string; idade: number };
+type Funcionario = { salario: number };
+
+const programadora: Pessoa & Funcionario = {
+  nome: "Aurora",
+  idade: 32,
+  salario: 1000,
+};
+
+console.log(programadora);
+
+separador();
+
+//Criando um novo tipo a partir da interseção de outros tipos
+type Colaborador = Pessoa & Funcionario;
+const outroProgramador: Colaborador = {
+  nome: "Silva",
+  idade: 19,
+  salario: 2000,
+};
+console.log(outroProgramador);
