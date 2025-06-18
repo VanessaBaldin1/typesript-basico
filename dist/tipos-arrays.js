@@ -32,9 +32,9 @@ let lista1 = [1, 2, 3, 4, 5, 6];
 let resultado = filtrarEDobrarPares(lista1);
 console.log(resultado);
 (0, modulos_1.separador)();
-function tribrarNumerosImpares(numeros) {
+function tribrarNumeros(numeros) {
     return numeros.filter(v => v % 3 === 0).map(v => v * 3);
 }
 let valores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let resultado2 = tribrarNumerosImpares(valores);
+let resultado2 = tribrarNumeros(valores);
 console.log(resultado2);
