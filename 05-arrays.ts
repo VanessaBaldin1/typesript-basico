@@ -36,3 +36,8 @@ separador();
 // 1)Crie um array de números
 // 2)Calcule a soma de todos os elementos e guarde numa variável
 // 3) Mostre o resultado da soma
+
+const valores: number[] = [10, 20, 30, 560];
+const total = valores.reduce((acumulador, valor) => acumulador + valor, 0);
+
+console.log(total);
