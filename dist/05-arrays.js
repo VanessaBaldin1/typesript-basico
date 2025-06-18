@@ -17,3 +17,4 @@ const linguagens = [
 ];
 console.log(linguagens[0][0]);
 console.log(linguagens[1][1]);
+(0, modulos_1.separador)();

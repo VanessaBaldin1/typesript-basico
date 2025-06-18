@@ -29,3 +29,10 @@ const linguagens: string[][] = [
 
 console.log(linguagens[0][0]);
 console.log(linguagens[1][1]);
+
+separador();
+
+//mini - exercício
+// 1)Crie um array de números
+// 2)Calcule a soma de todos os elementos e guarde numa variável
+// 3) Mostre o resultado da soma
